@@ -1,0 +1,31 @@
+body, html {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: inherit;
+  overflow: hidden;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: antiquewhite;
+}
+
+h1{
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: azure;
+}
+
+canvas {
+  border: 1px solid black;
+  background-color: aqua;
+}
